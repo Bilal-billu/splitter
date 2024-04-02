@@ -27,7 +27,7 @@ Users can reset the fields to calculate a new result. However, your previous res
 
 <-------Setup----->
 
-If you intend to run the project locally, then download the project and run it as you would normally do to a local React project. If you want to run the project on an external server, visit [] as it contains the live demo for the project. You can visit it using any smart device such as a laptop or a cellphone. The UI will automatically adjust to match the view on your device.
+If you intend to run the project locally, then download the project and run it as you would normally do to a local React project. If you want to run the project on an external server, visit https://splittertipper.netlify.app as it contains the live demo for the project. You can visit it using any smart device such as a laptop or a cellphone. The UI will automatically adjust to match the view on your device.
 
 <-------Example----->
 
