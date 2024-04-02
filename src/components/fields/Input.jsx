@@ -10,7 +10,7 @@ export default function Input() {
     heading: "Bill",
     icon: "foundation:dollar",
     error: bill.billError,
-    errorMessage: "Can't be zero",
+    errorMessage: "Can't be zero(or below)",
     value: bill.amount,
     changeValue: (val) => { setAmount(val) }
   },
@@ -19,7 +19,7 @@ export default function Input() {
     heading: "Number of People",
     icon: "material-symbols:person",
     error: people.peopleError,
-    errorMessage: "Can't be zero",
+    errorMessage: "Can't be zero(or below)",
     value: people.people,
     changeValue: (val) => { setIndividuals(val) }
   }]
