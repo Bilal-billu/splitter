@@ -1,0 +1,36 @@
+:root {
+
+    --primary: #114A4E;
+    --secondary: #26C2AD;
+    --neutral: #C5E4E7;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input:focus{
+    border: 10px solid black;
+    outline: none;
+    background-color: var(--primary);
+}
+
+.radioButton{
+    background-color: var(--primary);
+    color: var(--neutral);
+}
+input[type="radio"]:checked + .radioButton{
+    background-color: var(--secondary);
+    color: var(--primary);
+}
+
+.inputContainer{
+    background-color: #e8e9e9;
+    padding: 0%;
+}
+
+
+.inputContainer:focus-within{
+    border: 3px solid var(--secondary);
+}
